@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>CineLista - Estrenos</title>
+    <th:block th:replace="~{fragments/cabecera :: comunes}"></th:block>
+    <th:block th:replace="~{fragments/cabecera :: react}"></th:block>
+</head>
+<body>
+
+<div th:replace="~{fragments/nav :: nav}"></div>
+
+<h1>Estrenos</h1>
+
+<!--
+  TODO:
+  1) Comprobad los <script> de React, ReactDOM y Babel Standalone (CDN) estan
+     agregados.
+  2) Cargad tambien /js/componentes/TarjetaEstreno.js y /js/estrenos.js
+     (ambos con type="text/babel").
+  3) estrenos.js debe montar un <TarjetaEstreno> por cada estreno que llegue
+     desde GET /api/estrenos, dentro de la lista de abajo.
+
+  La lista HTML donde debe montarse cada tarjeta ya tiene el id esperado:
+-->
+<ul id="lista-estrenos"></ul>
+
+</body>
+</html>

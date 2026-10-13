@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "titulo": "Nebula Roja",
+    "fechaEstreno": "2026-11-14",
+    "genero": "Ciencia ficcion",
+    "plataforma": "Netflix"
+  },
+  {
+    "id": 2,
+    "titulo": "El Ultimo Faro",
+    "fechaEstreno": "2026-11-21",
+    "genero": "Drama",
+    "plataforma": "HBO Max"
+  },
+  {
+    "id": 3,
+    "titulo": "Codigo Fantasma",
+    "fechaEstreno": "2026-12-05",
+    "genero": "Thriller",
+    "plataforma": "Amazon Prime Video"
+  },
+  {
+    "id": 4,
+    "titulo": "Risas de Medianoche",
+    "fechaEstreno": "2026-12-12",
+    "genero": "Comedia",
+    "plataforma": "Disney+"
+  }
+]

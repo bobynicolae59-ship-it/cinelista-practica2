@@ -1,0 +1,57 @@
+
+body {
+  background-color: #f8f9fa;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #212529;
+}
+
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+#contenedor-principal {
+  max-width: 950px;
+}
+
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
+
+.table thead th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  background-color: #f1f5f9;
+  color: #475569;
+}
+
+.table tbody tr:hover {
+  background-color: #f8fafc;
+}
+
+#btn-anadir {
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.card-header h2 {
+  font-weight: 600;
+}
+
+form label {
+  font-weight: 500;
+  color: #334155;
+  margin-bottom: 4px;
+}
+
+form .form-control:focus,
+form .form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}

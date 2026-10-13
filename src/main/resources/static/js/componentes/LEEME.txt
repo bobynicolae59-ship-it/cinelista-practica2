@@ -1,0 +1,5 @@
+PRACTICA 3, ejercicio 7 (empaquetar componentes):
+Colocad aqui vuestro fichero TarjetaEstreno.js, listo para cargarse desde
+la plantilla estrenos.html con:
+
+  <script type="text/babel" src="/js/componentes/TarjetaEstreno.js"></script>

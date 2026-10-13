@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<!--
+  Navegacion MINIMA y sin estilar, solo para poder pasar de una pantalla a
+  otra mientras desarrollais. No es la barra de navegacion final: teneis
+  que disenarla y construirla vosotros con el editor visual + Bootstrap,
+  siguiendo el wireframe, y sustituir esta version en mi-lista.html.
+-->
+<nav th:fragment="nav">
+    <ul>
+        <li><a th:href="@{/mi-lista}">Mi lista</a></li>
+        <li><a th:href="@{/anadir-titulo}">Anadir titulo</a></li>
+        <li><a th:href="@{/estrenos}">Estrenos</a></li>
+        <li><a th:href="@{/estadisticas}">Estadisticas</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>
